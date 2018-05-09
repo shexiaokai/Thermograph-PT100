@@ -1,0 +1,15 @@
+Component   : PCBComponent_1 - duplicate
+PCB Library : Thermograph_PT100.PcbLib
+Date        : 2018/4/12
+Time        : 13:06:28
+
+
+
+Dimension : 99.999 x 99.999 in
+
+ Layer(s)              Pads(s)  Tracks(s)  Fill(s)  Arc(s)  Text(s)
+--------------------------------------------------------------------
+ Multi Layer                 4          0        0       0        0
+ Top Overlay                 0          9        0       0        0
+--------------------------------------------------------------------
+ Total                       4          9        0       0        0

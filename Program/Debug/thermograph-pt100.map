@@ -1,0 +1,437 @@
+
+Map of Debug\thermograph-pt100.sm8 from link file Debug\thermograph-pt100.lkf - Thu Apr 19 01:35:29 2018
+
+
+                               --------
+                               Segments
+                               --------
+
+start 00008080 end 00008080 length     0 segment .const
+start 00008083 end 000080d1 length    78 segment .text
+start 00001000 end 00001000 length     0 segment .eeprom
+start 00000000 end 00000000 length     0 segment .bsct
+start 00000000 end 00000006 length     6 segment .ubsct
+start 00000006 end 00000006 length     0 segment .bit
+start 00000006 end 00000006 length     0 segment .share
+start 00000100 end 00000100 length     0 segment .data
+start 00000100 end 00000100 length     0 segment .bss
+start 00000000 end 00002b21 length 11041 segment .debug
+start 00008000 end 00008080 length   128 segment .const
+start 00008080 end 00008083 length     3 segment .init
+
+
+                               -------
+                               Modules
+                               -------
+
+D:\Work\STVD\CXSTM8\Lib\crtsi0.sm8:
+start 00008083 end 000080ce length    75 section .text
+start 00000100 end 00000100 length     0 section .bss
+start 00000000 end 00000000 length     0 section .ubsct
+
+Debug\main.o:
+start 000080ce end 000080d0 length     2 section .text
+start 00000000 end 000029b6 length 10678 section .debug
+
+(D:\Work\STVD\CXSTM8\Lib\libm0.sm8)xreg.o:
+start 00000000 end 00000003 length     3 section .ubsct
+
+(D:\Work\STVD\CXSTM8\Lib\libm0.sm8)yreg.o:
+start 00000003 end 00000006 length     3 section .ubsct
+
+Debug\stm8_interrupt_vector.o:
+start 000080d0 end 000080d1 length     1 section .text
+start 000029b6 end 00002b21 length   363 section .debug
+start 00008000 end 00008080 length   128 section .const
+
+
+                             -----------
+                             Stack usage
+                             -----------
+
+Debug\main.o:
+_main                  >    2   (2)
+
+Debug\stm8_interrupt_vector.o:
+f_NonHandledInterrupt  >    5   (5)
+
+Stack size: 7
+
+
+                              ---------
+                              Call tree
+                              ---------
+   1 > __stext: (0)
+
+   2 > _main: (2)
+
+   3 > f_NonHandledInterrupt: (5)
+
+
+
+                               -------
+                               Symbols
+                               -------
+
+_ADC1_CR1               00005340   defined in Debug\main.o
+_ADC1_CR2               00005341   defined in Debug\main.o
+_ADC1_CR3               00005342   defined in Debug\main.o
+_ADC1_DR                00005344   defined in Debug\main.o
+_ADC1_DRH               00005344   defined in Debug\main.o
+_ADC1_DRL               00005345   defined in Debug\main.o
+_ADC1_HTR               00005346   defined in Debug\main.o
+_ADC1_HTRH              00005346   defined in Debug\main.o
+_ADC1_HTRL              00005347   defined in Debug\main.o
+_ADC1_LTR               00005348   defined in Debug\main.o
+_ADC1_LTRH              00005348   defined in Debug\main.o
+_ADC1_LTRL              00005349   defined in Debug\main.o
+_ADC1_SQR1              0000534a   defined in Debug\main.o
+_ADC1_SQR2              0000534b   defined in Debug\main.o
+_ADC1_SQR3              0000534c   defined in Debug\main.o
+_ADC1_SQR4              0000534d   defined in Debug\main.o
+_ADC1_SR                00005343   defined in Debug\main.o
+_ADC1_TRIGR1            0000534e   defined in Debug\main.o
+_ADC1_TRIGR2            0000534f   defined in Debug\main.o
+_ADC1_TRIGR3            00005350   defined in Debug\main.o
+_ADC1_TRIGR4            00005351   defined in Debug\main.o
+_BEEP_CSR1              000050f0   defined in Debug\main.o
+_BEEP_CSR2              000050f3   defined in Debug\main.o
+_CFG_GCR                00007f60   defined in Debug\main.o
+_CLK_CBEEPR             000050cb   defined in Debug\main.o
+_CLK_CCOR               000050c5   defined in Debug\main.o
+_CLK_CKDIVR             000050c0   defined in Debug\main.o
+_CLK_CRTCR              000050c1   defined in Debug\main.o
+_CLK_CSSR               000050ca   defined in Debug\main.o
+_CLK_ECKCR              000050c6   defined in Debug\main.o
+_CLK_HSICALR            000050cc   defined in Debug\main.o
+_CLK_HSITRIMR           000050cd   defined in Debug\main.o
+_CLK_HSIUNLCKR          000050ce   defined in Debug\main.o
+_CLK_ICKCR              000050c2   defined in Debug\main.o
+_CLK_PCKENR1            000050c3   defined in Debug\main.o
+_CLK_PCKENR2            000050c4   defined in Debug\main.o
+_CLK_REGCSR             000050cf   defined in Debug\main.o
+_CLK_SCSR               000050c7   defined in Debug\main.o
+_CLK_SWCR               000050c9   defined in Debug\main.o
+_CLK_SWR                000050c8   defined in Debug\main.o
+_COMP_CSR1              00005440   defined in Debug\main.o
+_COMP_CSR2              00005441   defined in Debug\main.o
+_COMP_CSR3              00005442   defined in Debug\main.o
+_COMP_CSR4              00005443   defined in Debug\main.o
+_COMP_CSR5              00005444   defined in Debug\main.o
+_DAC_CR1                00005380   defined in Debug\main.o
+_DAC_CR2                00005381   defined in Debug\main.o
+_DAC_DHR8               00005390   defined in Debug\main.o
+_DAC_DOR                000053ac   defined in Debug\main.o
+_DAC_DORH               000053ac   defined in Debug\main.o
+_DAC_DORL               000053ad   defined in Debug\main.o
+_DAC_LDHR               0000538c   defined in Debug\main.o
+_DAC_LDHRH              0000538c   defined in Debug\main.o
+_DAC_LDHRL              0000538d   defined in Debug\main.o
+_DAC_RDHR               00005388   defined in Debug\main.o
+_DAC_RDHRH              00005388   defined in Debug\main.o
+_DAC_RDHRL              00005389   defined in Debug\main.o
+_DAC_SR                 00005385   defined in Debug\main.o
+_DAC_SWTRIGR            00005384   defined in Debug\main.o
+_DMA1_C0CR              00005075   defined in Debug\main.o
+_DMA1_C0M0AR            0000507b   defined in Debug\main.o
+_DMA1_C0M0ARH           0000507b   defined in Debug\main.o
+_DMA1_C0M0ARL           0000507c   defined in Debug\main.o
+_DMA1_C0NDTR            00005077   defined in Debug\main.o
+_DMA1_C0PAR             00005078   defined in Debug\main.o
+_DMA1_C0PARH            00005078   defined in Debug\main.o
+_DMA1_C0PARL            00005079   defined in Debug\main.o
+_DMA1_C0SPR             00005076   defined in Debug\main.o
+_DMA1_C1CR              0000507f   defined in Debug\main.o
+_DMA1_C1M0AR            00005085   defined in Debug\main.o
+_DMA1_C1M0ARH           00005085   defined in Debug\main.o
+_DMA1_C1M0ARL           00005086   defined in Debug\main.o
+_DMA1_C1NDTR            00005081   defined in Debug\main.o
+_DMA1_C1PAR             00005082   defined in Debug\main.o
+_DMA1_C1PARH            00005082   defined in Debug\main.o
+_DMA1_C1PARL            00005083   defined in Debug\main.o
+_DMA1_C1SPR             00005080   defined in Debug\main.o
+_DMA1_C2CR              00005089   defined in Debug\main.o
+_DMA1_C2M0AR            0000508f   defined in Debug\main.o
+_DMA1_C2M0ARH           0000508f   defined in Debug\main.o
+_DMA1_C2M0ARL           00005090   defined in Debug\main.o
+_DMA1_C2NDTR            0000508b   defined in Debug\main.o
+_DMA1_C2PAR             0000508c   defined in Debug\main.o
+_DMA1_C2PARH            0000508c   defined in Debug\main.o
+_DMA1_C2PARL            0000508d   defined in Debug\main.o
+_DMA1_C2SPR             0000508a   defined in Debug\main.o
+_DMA1_C3CR              00005093   defined in Debug\main.o
+_DMA1_C3M0AR            00005099   defined in Debug\main.o
+_DMA1_C3M0ARH           00005099   defined in Debug\main.o
+_DMA1_C3M0ARL           0000509a   defined in Debug\main.o
+_DMA1_C3NDTR            00005095   defined in Debug\main.o
+_DMA1_C3PARH_C3M1ARH    00005096   defined in Debug\main.o
+_DMA1_C3PARL_C3M1ARL    00005097   defined in Debug\main.o
+_DMA1_C3PAR_C3M1AR      00005096   defined in Debug\main.o
+_DMA1_C3SPR             00005094   defined in Debug\main.o
+_DMA1_GCSR              00005070   defined in Debug\main.o
+_DMA1_GIR1              00005071   defined in Debug\main.o
+_EXTI_CONF              000050a5   defined in Debug\main.o
+_EXTI_CR1               000050a0   defined in Debug\main.o
+_EXTI_CR2               000050a1   defined in Debug\main.o
+_EXTI_CR3               000050a2   defined in Debug\main.o
+_EXTI_SR1               000050a3   defined in Debug\main.o
+_EXTI_SR2               000050a4   defined in Debug\main.o
+_FLASH_CR1              00005050   defined in Debug\main.o
+_FLASH_CR2              00005051   defined in Debug\main.o
+_FLASH_DUKR             00005053   defined in Debug\main.o
+_FLASH_IAPSR            00005054   defined in Debug\main.o
+_FLASH_PUKR             00005052   defined in Debug\main.o
+_I2C1_CCRH              0000521c   defined in Debug\main.o
+_I2C1_CCRL              0000521b   defined in Debug\main.o
+_I2C1_CR1               00005210   defined in Debug\main.o
+_I2C1_CR2               00005211   defined in Debug\main.o
+_I2C1_DR                00005216   defined in Debug\main.o
+_I2C1_FREQR             00005212   defined in Debug\main.o
+_I2C1_ITR               0000521a   defined in Debug\main.o
+_I2C1_OARH              00005214   defined in Debug\main.o
+_I2C1_OARL              00005213   defined in Debug\main.o
+_I2C1_PECR              0000521e   defined in Debug\main.o
+_I2C1_SR1               00005217   defined in Debug\main.o
+_I2C1_SR2               00005218   defined in Debug\main.o
+_I2C1_SR3               00005219   defined in Debug\main.o
+_I2C1_TRISER            0000521d   defined in Debug\main.o
+_IR_CR                  000052ff   defined in Debug\main.o
+_ITC_SPR1               00007f70   defined in Debug\main.o
+_ITC_SPR2               00007f71   defined in Debug\main.o
+_ITC_SPR3               00007f72   defined in Debug\main.o
+_ITC_SPR4               00007f73   defined in Debug\main.o
+_ITC_SPR5               00007f74   defined in Debug\main.o
+_ITC_SPR6               00007f75   defined in Debug\main.o
+_ITC_SPR7               00007f76   defined in Debug\main.o
+_ITC_SPR8               00007f77   defined in Debug\main.o
+_IWDG_KR                000050e0   defined in Debug\main.o
+_IWDG_PR                000050e1   defined in Debug\main.o
+_IWDG_RLR               000050e2   defined in Debug\main.o
+_PA_CR1                 00005003   defined in Debug\main.o
+_PA_CR2                 00005004   defined in Debug\main.o
+_PA_DDR                 00005002   defined in Debug\main.o
+_PA_IDR                 00005001   defined in Debug\main.o
+_PA_ODR                 00005000   defined in Debug\main.o
+_PB_CR1                 00005008   defined in Debug\main.o
+_PB_CR2                 00005009   defined in Debug\main.o
+_PB_DDR                 00005007   defined in Debug\main.o
+_PB_IDR                 00005006   defined in Debug\main.o
+_PB_ODR                 00005005   defined in Debug\main.o
+_PC_CR1                 0000500d   defined in Debug\main.o
+_PC_CR2                 0000500e   defined in Debug\main.o
+_PC_DDR                 0000500c   defined in Debug\main.o
+_PC_IDR                 0000500b   defined in Debug\main.o
+_PC_ODR                 0000500a   defined in Debug\main.o
+_PD_CR1                 00005012   defined in Debug\main.o
+_PD_CR2                 00005013   defined in Debug\main.o
+_PD_DDR                 00005011   defined in Debug\main.o
+_PD_IDR                 00005010   defined in Debug\main.o
+_PD_ODR                 0000500f   defined in Debug\main.o
+_PE_CR1                 00005017   defined in Debug\main.o
+_PE_CR2                 00005018   defined in Debug\main.o
+_PE_DDR                 00005016   defined in Debug\main.o
+_PE_IDR                 00005015   defined in Debug\main.o
+_PE_ODR                 00005014   defined in Debug\main.o
+_PF_CR1                 0000501c   defined in Debug\main.o
+_PF_CR2                 0000501d   defined in Debug\main.o
+_PF_DDR                 0000501b   defined in Debug\main.o
+_PF_IDR                 0000501a   defined in Debug\main.o
+_PF_ODR                 00005019   defined in Debug\main.o
+_PWR_CSR1               000050b2   defined in Debug\main.o
+_PWR_CSR2               000050b3   defined in Debug\main.o
+_RI_ASCR1               0000543d   defined in Debug\main.o
+_RI_ASCR2               0000543e   defined in Debug\main.o
+_RI_ICR1                00005431   defined in Debug\main.o
+_RI_ICR2                00005432   defined in Debug\main.o
+_RI_IOCMR1              00005436   defined in Debug\main.o
+_RI_IOCMR2              00005437   defined in Debug\main.o
+_RI_IOCMR3              00005438   defined in Debug\main.o
+_RI_IOGCR               0000543c   defined in Debug\main.o
+_RI_IOIR1               00005433   defined in Debug\main.o
+_RI_IOIR2               00005434   defined in Debug\main.o
+_RI_IOIR3               00005435   defined in Debug\main.o
+_RI_IOSR1               00005439   defined in Debug\main.o
+_RI_IOSR2               0000543a   defined in Debug\main.o
+_RI_IOSR3               0000543b   defined in Debug\main.o
+_RI_RCR                 0000543f   defined in Debug\main.o
+_RST_CR                 000050b0   defined in Debug\main.o
+_RST_SR                 000050b1   defined in Debug\main.o
+_RTC_ALRMAR1            0000515c   defined in Debug\main.o
+_RTC_ALRMAR2            0000515d   defined in Debug\main.o
+_RTC_ALRMAR3            0000515e   defined in Debug\main.o
+_RTC_ALRMAR4            0000515f   defined in Debug\main.o
+_RTC_APRER              00005152   defined in Debug\main.o
+_RTC_CR1                00005148   defined in Debug\main.o
+_RTC_CR2                00005149   defined in Debug\main.o
+_RTC_CR3                0000514a   defined in Debug\main.o
+_RTC_DR1                00005144   defined in Debug\main.o
+_RTC_DR2                00005145   defined in Debug\main.o
+_RTC_DR3                00005146   defined in Debug\main.o
+_RTC_ISR1               0000514c   defined in Debug\main.o
+_RTC_ISR2               0000514d   defined in Debug\main.o
+_RTC_SPRER              00005150   defined in Debug\main.o
+_RTC_SPRERH             00005150   defined in Debug\main.o
+_RTC_SPRERL             00005151   defined in Debug\main.o
+_RTC_TR1                00005140   defined in Debug\main.o
+_RTC_TR2                00005141   defined in Debug\main.o
+_RTC_TR3                00005142   defined in Debug\main.o
+_RTC_WPR                00005159   defined in Debug\main.o
+_RTC_WUTR               00005154   defined in Debug\main.o
+_RTC_WUTRH              00005154   defined in Debug\main.o
+_RTC_WUTRL              00005155   defined in Debug\main.o
+_SPI1_CR1               00005200   defined in Debug\main.o
+_SPI1_CR2               00005201   defined in Debug\main.o
+_SPI1_CRCPR             00005205   defined in Debug\main.o
+_SPI1_DR                00005204   defined in Debug\main.o
+_SPI1_ICR               00005202   defined in Debug\main.o
+_SPI1_RXCRCR            00005206   defined in Debug\main.o
+_SPI1_SR                00005203   defined in Debug\main.o
+_SPI1_TXCRCR            00005207   defined in Debug\main.o
+_SYSCFG_RMPCR1          0000509e   defined in Debug\main.o
+_SYSCFG_RMPCR2          0000509f   defined in Debug\main.o
+_TIM1_ARR               000052c3   defined in Debug\main.o
+_TIM1_ARRH              000052c3   defined in Debug\main.o
+_TIM1_ARRL              000052c4   defined in Debug\main.o
+_TIM1_BKR               000052ce   defined in Debug\main.o
+_TIM1_CCER1             000052bd   defined in Debug\main.o
+_TIM1_CCER2             000052be   defined in Debug\main.o
+_TIM1_CCMR1             000052b9   defined in Debug\main.o
+_TIM1_CCMR2             000052ba   defined in Debug\main.o
+_TIM1_CCMR3             000052bb   defined in Debug\main.o
+_TIM1_CCMR4             000052bc   defined in Debug\main.o
+_TIM1_CCR1              000052c6   defined in Debug\main.o
+_TIM1_CCR1H             000052c6   defined in Debug\main.o
+_TIM1_CCR1L             000052c7   defined in Debug\main.o
+_TIM1_CCR2              000052c8   defined in Debug\main.o
+_TIM1_CCR2H             000052c8   defined in Debug\main.o
+_TIM1_CCR2L             000052c9   defined in Debug\main.o
+_TIM1_CCR3              000052ca   defined in Debug\main.o
+_TIM1_CCR3H             000052ca   defined in Debug\main.o
+_TIM1_CCR3L             000052cb   defined in Debug\main.o
+_TIM1_CCR4              000052cc   defined in Debug\main.o
+_TIM1_CCR4H             000052cc   defined in Debug\main.o
+_TIM1_CCR4L             000052cd   defined in Debug\main.o
+_TIM1_CNTR              000052bf   defined in Debug\main.o
+_TIM1_CNTRH             000052bf   defined in Debug\main.o
+_TIM1_CNTRL             000052c0   defined in Debug\main.o
+_TIM1_CR1               000052b0   defined in Debug\main.o
+_TIM1_CR2               000052b1   defined in Debug\main.o
+_TIM1_DCR1              000052d1   defined in Debug\main.o
+_TIM1_DCR2              000052d2   defined in Debug\main.o
+_TIM1_DER               000052b4   defined in Debug\main.o
+_TIM1_DMAR              000052d3   defined in Debug\main.o
+_TIM1_DTR               000052cf   defined in Debug\main.o
+_TIM1_EGR               000052b8   defined in Debug\main.o
+_TIM1_ETR               000052b3   defined in Debug\main.o
+_TIM1_IER               000052b5   defined in Debug\main.o
+_TIM1_OISR              000052d0   defined in Debug\main.o
+_TIM1_PSCR              000052c1   defined in Debug\main.o
+_TIM1_PSCRH             000052c1   defined in Debug\main.o
+_TIM1_PSCRL             000052c2   defined in Debug\main.o
+_TIM1_RCR               000052c5   defined in Debug\main.o
+_TIM1_SMCR              000052b2   defined in Debug\main.o
+_TIM1_SR1               000052b6   defined in Debug\main.o
+_TIM1_SR2               000052b7   defined in Debug\main.o
+_TIM2_ARR               0000525f   defined in Debug\main.o
+_TIM2_ARRH              0000525f   defined in Debug\main.o
+_TIM2_ARRL              00005260   defined in Debug\main.o
+_TIM2_BKR               00005265   defined in Debug\main.o
+_TIM2_CCER1             0000525b   defined in Debug\main.o
+_TIM2_CCMR1             00005259   defined in Debug\main.o
+_TIM2_CCMR2             0000525a   defined in Debug\main.o
+_TIM2_CCR1              00005261   defined in Debug\main.o
+_TIM2_CCR1H             00005261   defined in Debug\main.o
+_TIM2_CCR1L             00005262   defined in Debug\main.o
+_TIM2_CCR2              00005263   defined in Debug\main.o
+_TIM2_CCR2H             00005263   defined in Debug\main.o
+_TIM2_CCR2L             00005264   defined in Debug\main.o
+_TIM2_CNTR              0000525c   defined in Debug\main.o
+_TIM2_CNTRH             0000525c   defined in Debug\main.o
+_TIM2_CNTRL             0000525d   defined in Debug\main.o
+_TIM2_CR1               00005250   defined in Debug\main.o
+_TIM2_CR2               00005251   defined in Debug\main.o
+_TIM2_DER               00005254   defined in Debug\main.o
+_TIM2_EGR               00005258   defined in Debug\main.o
+_TIM2_ETR               00005253   defined in Debug\main.o
+_TIM2_IER               00005255   defined in Debug\main.o
+_TIM2_OISR              00005266   defined in Debug\main.o
+_TIM2_PSCR              0000525e   defined in Debug\main.o
+_TIM2_SMCR              00005252   defined in Debug\main.o
+_TIM2_SR1               00005256   defined in Debug\main.o
+_TIM2_SR2               00005257   defined in Debug\main.o
+_TIM3_ARR               0000528f   defined in Debug\main.o
+_TIM3_ARRH              0000528f   defined in Debug\main.o
+_TIM3_ARRL              00005290   defined in Debug\main.o
+_TIM3_BKR               00005295   defined in Debug\main.o
+_TIM3_CCER1             0000528b   defined in Debug\main.o
+_TIM3_CCMR1             00005289   defined in Debug\main.o
+_TIM3_CCMR2             0000528a   defined in Debug\main.o
+_TIM3_CCR1              00005291   defined in Debug\main.o
+_TIM3_CCR1H             00005291   defined in Debug\main.o
+_TIM3_CCR1L             00005292   defined in Debug\main.o
+_TIM3_CCR2              00005293   defined in Debug\main.o
+_TIM3_CCR2H             00005293   defined in Debug\main.o
+_TIM3_CCR2L             00005294   defined in Debug\main.o
+_TIM3_CNTR              0000528c   defined in Debug\main.o
+_TIM3_CNTRH             0000528c   defined in Debug\main.o
+_TIM3_CNTRL             0000528d   defined in Debug\main.o
+_TIM3_CR1               00005280   defined in Debug\main.o
+_TIM3_CR2               00005281   defined in Debug\main.o
+_TIM3_DER               00005284   defined in Debug\main.o
+_TIM3_EGR               00005288   defined in Debug\main.o
+_TIM3_ETR               00005283   defined in Debug\main.o
+_TIM3_IER               00005285   defined in Debug\main.o
+_TIM3_OISR              00005296   defined in Debug\main.o
+_TIM3_PSCR              0000528e   defined in Debug\main.o
+_TIM3_SMCR              00005282   defined in Debug\main.o
+_TIM3_SR1               00005286   defined in Debug\main.o
+_TIM3_SR2               00005287   defined in Debug\main.o
+_TIM4_ARR               000052e9   defined in Debug\main.o
+_TIM4_CNTR              000052e7   defined in Debug\main.o
+_TIM4_CR1               000052e0   defined in Debug\main.o
+_TIM4_CR2               000052e1   defined in Debug\main.o
+_TIM4_DER               000052e3   defined in Debug\main.o
+_TIM4_EGR               000052e6   defined in Debug\main.o
+_TIM4_IER               000052e4   defined in Debug\main.o
+_TIM4_PSCR              000052e8   defined in Debug\main.o
+_TIM4_SMCR              000052e2   defined in Debug\main.o
+_TIM4_SR1               000052e5   defined in Debug\main.o
+_USART1_BRR1            00005232   defined in Debug\main.o
+_USART1_BRR2            00005233   defined in Debug\main.o
+_USART1_CR1             00005234   defined in Debug\main.o
+_USART1_CR2             00005235   defined in Debug\main.o
+_USART1_CR3             00005236   defined in Debug\main.o
+_USART1_CR4             00005237   defined in Debug\main.o
+_USART1_CR5             00005238   defined in Debug\main.o
+_USART1_DR              00005231   defined in Debug\main.o
+_USART1_GTR             00005239   defined in Debug\main.o
+_USART1_PSCR            0000523a   defined in Debug\main.o
+_USART1_SR              00005230   defined in Debug\main.o
+_WFE_CR1                000050a6   defined in Debug\main.o
+_WFE_CR2                000050a7   defined in Debug\main.o
+_WFE_CR3                000050a8   defined in Debug\main.o
+_WWDG_CR                000050d3   defined in Debug\main.o
+_WWDG_WR                000050d4   defined in Debug\main.o
+__endmem                000005fe   defined in command file
+                                   *** not used ***
+__endzp                 00000006   defined in command file section .ubsct
+                                   used in D:\Work\STVD\CXSTM8\Lib\crtsi0.sm8
+__idesc__               00008080   defined in linker section .init
+                                   used in D:\Work\STVD\CXSTM8\Lib\crtsi0.sm8
+__memory                00000100   defined in command file section .bss
+                                   used in D:\Work\STVD\CXSTM8\Lib\crtsi0.sm8
+__stack                 000007ff   defined in command file
+                                   used in D:\Work\STVD\CXSTM8\Lib\crtsi0.sm8
+__startmem              00000100   defined in command file section .bss
+                                   *** not used ***
+__stext                 00008083   defined in D:\Work\STVD\CXSTM8\Lib\crtsi0.sm8 section .text
+                                   used in Debug\stm8_interrupt_vector.o
+__vectab                00008000   defined in Debug\stm8_interrupt_vector.o section .const
+_exit                   000080cc   defined in D:\Work\STVD\CXSTM8\Lib\crtsi0.sm8 section .text
+_main                   000080ce   defined in Debug\main.o section .text
+                                   used in D:\Work\STVD\CXSTM8\Lib\crtsi0.sm8
+c_x                     00000000   defined in (D:\Work\STVD\CXSTM8\Lib\libm0.sm8)xreg.o section .ubsct
+                                   used in D:\Work\STVD\CXSTM8\Lib\crtsi0.sm8
+c_y                     00000003   defined in (D:\Work\STVD\CXSTM8\Lib\libm0.sm8)yreg.o section .ubsct
+                                   used in D:\Work\STVD\CXSTM8\Lib\crtsi0.sm8
+f_NonHandledInterrupt   000080d0   defined in Debug\stm8_interrupt_vector.o section .text
