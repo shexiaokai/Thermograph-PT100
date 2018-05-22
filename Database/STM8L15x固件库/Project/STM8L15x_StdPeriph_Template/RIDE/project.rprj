@@ -1,0 +1,9 @@
+
+<Project Header="Project 'project'" Path=".\project.rprj" Project="Yes" OutputFile="" sate="96" ActiveApp="stm8l15xx2_3" >
+	<ApplicationBuild Header="stm8l15xx2_3" Extern=".\stm8l15xx2_3.rapp" Path=".\stm8l15xx2_3.rapp" OutputFile=".\Debug\stm8l15xx2_3.aof" sate="96" />
+	<ApplicationBuild Header="stm8l15xx4_6" Extern=".\stm8l15xx4_6.rapp" Path=".\stm8l15xx4_6.rapp" OutputFile=".\Debug\stm8l15xx4_6.aof" sate="96" />
+	<ApplicationBuild Header="stm8l15xx8_16xx8" Extern=".\stm8l15xx8_16xx8.rapp" Path=".\stm8l15xx8_16xx8.rapp" OutputFile=".\Debug\stm8l15xx8_16xx8.aof" sate="96" />
+	<ApplicationBuild Header="stm8l05xx3" Extern=".\stm8l05xx3.rapp" Path=".\stm8l05xx3.rapp" OutputFile=".\Debug\stm8l05xx3.aof" sate="96" />
+	<ApplicationBuild Header="stm8l05xx6" Extern=".\stm8l05xx6.rapp" Path=".\stm8l05xx6.rapp" OutputFile=".\Debug\stm8l05xx6.aof" sate="96" />
+	<ApplicationBuild Header="stm8l05xx8" Extern=".\stm8l05xx8.rapp" Path=".\stm8l05xx8.rapp" OutputFile=".\Debug\stm8l05xx8.aof" sate="96" />
+</Project>

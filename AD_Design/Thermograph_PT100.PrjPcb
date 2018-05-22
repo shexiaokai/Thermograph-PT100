@@ -43,7 +43,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=0
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -54,6 +54,23 @@ GenerateClassCluster=0
 DocumentUniqueId=KUWNPWKS
 
 [Document2]
+DocumentPath=F:\我的AD库\常用元器件库.LibPkg
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document3]
 DocumentPath=Pcb\Thermograph_PT100.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -70,7 +87,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NUMUQBHT
 
-[Document3]
+[Document4]
 DocumentPath=Lib\Thermograph_PT100.LibPkg
 AnnotationEnabled=1
 AnnotateStartValue=1
